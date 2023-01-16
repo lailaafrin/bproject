@@ -1,0 +1,174 @@
+*{
+   margin: 0;
+   
+}
+nav{
+   display: flex;
+   justify-content:space-between;
+   padding: 20px;
+   margin-left: 20px;
+}
+nav a{
+   text-decoration: none;
+   color: lightslategray;
+   margin:20px;
+
+}
+
+header{
+   background-color: bisque;
+   height:750px ;
+}
+.title{
+   text-align: center;
+   margin-top:50px;
+}
+   
+
+.text{
+   text-align: center;
+   margin-top: 10px;
+   color:lightslategray;
+}
+
+  #button{ border:none;
+   border-radius: 5px;
+   background-color: orangered;
+   margin-top: 10px;
+   padding: 10px;
+   color: white;
+}
+
+.banner{ display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top:20px ;
+   width: 85%;
+   height:50% ;
+   
+
+   
+}
+
+/* 2nd section */
+
+    
+
+.column{display:grid;
+   grid-template-columns:auto auto;
+column-width:10px;
+   max-width:500px;
+   margin-top: 50px;
+   margin-left:50px;
+    
+}
+
+.text2 h2{
+   color:orange;
+}
+.text2 div{max-width:50%;
+   align-items:center;
+   color:lightslategray
+
+}
+.contaner{max-width:100%;
+   display: flex;
+}
+
+
+
+.text2 button{
+   border:none;
+   background-color:orange;
+   color: white;
+   padding:10px ;
+   border-radius: 5px;
+}
+/* 3rd f */
+.box{
+   display: flex;
+   justify-content: center;
+   column-gap: 50px;margin: 50px;
+   
+
+}
+
+
+#grid {max-width:100%;
+   display: grid;
+   height: 200px;
+   grid-template-columns: 300px;
+   grid-template-rows: repeat(2, 1fr);
+   row-gap: 20px;
+   
+   
+ }
+ 
+ #grid > div {
+   
+   background-color: rgb(175, 179, 175);
+   padding: 20px ;
+
+ }
+ #pic{height:550px ;
+   
+ }
+ .icon{display: grid;
+   
+   height: 200px;
+width: 50%;
+margin-top:20px ;
+padding-left: 300px;
+align-items:center ;
+   grid-template-columns: repeat(4, 1fr);
+   row-gap: 20px;
+   
+ }
+  b, h6{
+   margin-left:10% ;
+ }
+ 
+ .icon img{padding: 20px;
+   
+   border: 2px solid orange;
+   
+ }
+.icon{
+      transition: width 5s,height 1s, transform 5s;
+   
+}
+.icon:hover{
+   transform:rotate(180deg);
+   
+}
+   /* 5 section */
+   h1,p{
+      text-align:center;
+}
+
+
+   .icon{
+      
+      display: grid;
+      
+   height: 200px;
+   width: 100%
+   margin-top:20px ;
+   padding-left: 300px;
+   align-items:center ;
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 20px;
+}
+.a-icon,img{
+   
+   display: flex;
+   border: none;
+   margin-left: 50px  ;
+   padding: 10px;
+}
+
+
+/* fotter section */
+.fotter{color:wheat;
+    background-color: black;
+}
